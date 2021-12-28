@@ -1,0 +1,100 @@
+@import "style.css";
+
+.mailbutton {
+  color: #658ec6;
+  font-weight: 900;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 25px;
+  padding: 1% 4%;
+  transition: all 250ms;
+}
+
+.adminbutton {
+  color: #658ec6;
+  font-weight: 900;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 25px;
+  font-size: x-small;
+  padding: 0.5%;
+  transition: all 250ms;
+  display: flex;
+  justify-content: center;
+  padding: 1% 2%;
+  margin-bottom: 15%;
+}
+
+.adminzone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.adminbutton:hover {
+  transform: scale(1.05);
+  transition: all 250ms;
+  background: #193966;
+  color: white;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+
+.contactme {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.contactme h1 {
+  width: 80%;
+  font-size: 3vh;
+  margin-bottom: 5%;
+}
+
+.contactme h2 {
+  width: 100%;
+}
+
+.mailbutton:hover {
+  transform: scale(1.05);
+  transition: all 250ms;
+  background: #658ec6;
+  color: white;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+
+@media only screen and (max-width: 800px) {
+
+  .titleblock {
+    justify-content: space-around;
+    flex-direction: column;
+    margin: 15%;
+  }
+
+  .contactme {
+    height: 80%;
+  }
+
+  .contactme h1{
+    width: 90%;
+    font-size: 2vh;
+    margin-bottom: 5%;
+  }
+
+  h2 {
+    width: 100%;
+  }
+
+  .mailbutton{ 
+    font-size: 0.7rem;
+    width: 100%;
+    padding: 3% 6%;
+    margin: 0;
+  }
+
+}
+

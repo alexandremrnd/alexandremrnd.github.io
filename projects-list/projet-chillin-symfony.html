@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Projet CHILLIN' Symfony - Portfolio d'Alexandre Miranda Dias</title>
+    <link rel="shortcut icon" type="image/png" href="./data/icons/icon.png" />
+    <link rel="apple-touch-icon" href="./data/icons/icon.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styleprojectpage.css">
+</head>
+
+<body>
+    <div class="loader-wrapper">
+        <span class="loader"></span>
+    </div>
+    <div class="cursor"></div>
+    <main class="main">
+        <section class="glass">
+            <div id="menuToggle">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul id="menu">
+                    <div class="user">
+                        <img src="../data/avatarrond.png" alt="avatar" class="avatar">
+                        <h3>Alexandre Miranda Dias</h3>
+                        <p>Webdesigner en formation universitaire</p>
+                    </div>
+                    <nav class="links">
+                        <a href="../index">
+                            <div class="link">
+                                <img src="../data/icons/home.png" alt="homeicon">
+                                <h2>Accueil</h2>
+                            </div>
+                        </a>
+                        <a href="../course">
+                            <div class="link">
+                                <img src="../data/icons/student.png" alt="courseicon">
+                                <h2>Parcours</h2>
+                            </div>
+                        </a>
+                        <a href="../projects">
+                            <div class="link">
+                                <img src="../data/icons/ideas.png" alt="projectsicon">
+                                <h2>Projets</h2>
+                            </div>
+                        </a>
+                        <a href="../contact">
+                            <div class="link">
+                                <img src="../data/icons/contact.png" alt="contacticon">
+                                <h2>Contact</h2>
+                            </div>
+                        </a>
+                        <div class="socialicons">
+                            <a href="https://twitter.com/alexmirandadias"><img src="../data/icons/twitter.png" alt="twitter"></a>
+                            <a href="http://www.linkedin.com/in/alexandremd/"><img src="../data/icons/linkedin.png" alt="linkedin"></a>
+                            <a href="https://www.behance.net/alexandremirandadias"><img src="../data/icons/behance.png" alt="behance"></a>
+                            <a href="https://github.com/alexandremrnd"><img src="../data/icons/github.png" alt="github"></a>
+                            <img src="../data/icons/smallsocialicon.png" id="smallsocialicon">
+                        </div>
+                        <div class="darkmodeswitchmobile">
+                            <p id="switchtext">MODE SOMBRE</p>
+                            <div class="toggle-btn" id="_1st-toggle-btn">
+                                <input type="checkbox" name="switchDLmode" id="switchDLbuttonmobile" onclick="switchDLFunctionPPage()">
+                                <span></span>
+                            </div>
+                        </div>
+                    </nav>
+                </ul>
+            </div>
+            <div class="dashboard">
+                <div class="user">
+                    <img src="../data/avatarrond.png" alt="avatar" class="avatar">
+                    <h3>Alexandre Miranda Dias</h3>
+                    <p>Web designer en formation universitaire</p>
+                </div>
+                <div class="links">
+                    <a href="../index">
+                        <div class="link">
+                            <img src="../data/icons/home.png" alt="homeicon">
+                            <h2>Accueil</h2>
+                        </div>
+                    </a>
+                    <a href="../course">
+                        <div class="link">
+                            <img src="../data/icons/student.png" alt="courseicon">
+                            <h2>Parcours</h2>
+                        </div>
+                    </a>
+                    <a href="../projects">
+                        <div class="link">
+                            <img src="../data/icons/ideas.png" alt="projectsicon">
+                            <h2>Projets</h2>
+                        </div>
+                    </a>
+                    <a href="../contact">
+                        <div class="link">
+                            <img src="../data/icons/contact.png" alt="contacticon">
+                            <h2>Contact</h2>
+                        </div>
+                    </a>
+                </div>
+                <p id="switchtext">MODE SOMBRE</p>
+                <div class="toggle-btn" id="_1st-toggle-btn">
+                    <input type="checkbox" name="switchDLmode" id="switchDLbutton" onclick="switchDLFunctionPPage()">
+                    <span></span>
+                </div>
+                <div class="socialicons">
+                    <a href="https://twitter.com/alexmirandadias"><img src="../data/icons/twitter.png" alt="twitter"></a>
+                    <a href="http://www.linkedin.com/in/alexandremd/"><img src="../data/icons/linkedin.png" alt="linkedin"></a>
+                    <a href="https://www.behance.net/alexandremirandadias"><img src="../data/icons/behance.png" alt="behance"></a>
+                    <a href="https://github.com/alexandremrnd"><img src="../data/icons/github.png" alt="github" class="githubicon"></a>
+                    <img src="../data/icons/smallsocialicon.png" id="smallsocialicon">
+                </div>
+            </div>
+            <!-- Partie à modifier -->
+            <div class="informations">
+                <a href="../projects" class="gobackbutton">
+                    < Retour</a>
+                        <div id="projet-chillin-symfony">
+                            <div class="titleblock">
+                                <h1>Projet "CHILLIN" Symfony</h1>
+                                <h3>PROJET UNIVERSITAIRE</h3>
+                            </div>
+                            <div class="groupofblocks1">
+                                <div class="block1">
+                                    <h3 class="titleblockinfo">LE BUT DU PROJET</h3>
+                                    <p>En groupe de deux étudiants, nous devions, en partant de rien, créer un site de gestion de séries, similaire au célèbre site Netflix, où une gestion des membres et des commentaires de leurs commentaires devait être
+                                        présente.</p>
+                                </div>
+                            </div>
+                            <img src="../data/imgprojects/projet-chillin-symfony/1.png" alt="chillin1" id="imgchillin1">
+
+                            <div class="groupofblocks2">
+                                <div class="block1">
+                                    <div class="textpart">
+                                        <h1>Affichage d'une série</h1>
+                                        <p>L'utilisateur peut ici voir plus d'informations sur cette série, voir la bande-annonce ou les différents épisodes. Si l'utilisateur a un compte, il peut alors ajouter la série à sa liste de séries préférées, et
+                                            cocher les épisodes vus, ou non</p>
+                                    </div>
+                                    <img src="../data/imgprojects/projet-chillin-symfony/3.png" alt="">
+                                </div>
+                            </div>
+
+                            <div class="groupofblocks3">
+                                <div class="block1">
+                                    <img src="../data/imgprojects/projet-chillin-symfony/4.png" alt="">
+                                    <div class="textpart">
+                                        <h1>Recherche d'une série</h1>
+                                        <p>Dans la fenêtre "Catalogue", l'utilisateur trouvera toutes les séries classées par ordre alphabétique. Il peut alors effectuer une recherche parmi la longue liste disponible sur le site</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="groupofblocks4">
+                                <div class="block1">
+                                    <div class="textpart">
+                                        <h1>Publication d'avis</h1>
+                                        <p>Lorsqu'un utilisateur connecté visualise la page d'une série, il peut visualiser et publier des commentaires, accompagnées d'une note </p>
+                                    </div>
+                                    <img src="../data/imgprojects/projet-chillin-symfony/5.png" alt="">
+                                </div>
+                            </div>
+
+                            <img src="../data/imgprojects/projet-chillin-symfony/2.png" alt="">
+                            <div class="groupofblocks5">
+                                <div class="block1">
+                                    <h1> Vue "Mon compte"</h1>
+                                    <p id="pchillin">Informations et liste de séries préférées de l'utilisateur.
+                                    </p>
+                                </div>
+                                <div class="block2">
+                                    <h1> Mode "administrateur"</h1>
+                                    <p id="pchillin">Visualisation des avis publiés, et possibilité de supprimer des avis.
+
+                                    </p>
+                                </div>
+                                <div class="block3">
+                                    <h1>
+                                        Et plein d'autres fonctionnalités...</h1>
+
+                                </div>
+                            </div>
+                            <div class="groupofblocks6">
+                                <div class="block1">
+                                    <h1>Vous souhaitez en voir plus ?</h1>
+                                    <p class="gotogithubtxt">Rendez-vous sur mon profil GitHub disponible en cliquant sur l'icône à gauche</p>
+                                </div>
+                            </div>
+                            <br>
+                        </div>
+            </div>
+        </section>
+    </main>
+    <div class="circle1"></div>
+    <div class="circle2"></div>
+    <div class="circle3"></div>
+    <script src='../js/projectpage.js'></script>
+    <script src='../js/script.js'></script>
+</body>
+
+</html>

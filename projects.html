@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Projets - Portfolio d'Alexandre Miranda Dias</title>
+    <link rel="shortcut icon" type="image/png" href="./data/icons/icon.png" />
+    <link rel="apple-touch-icon" href="./data/icons/icon.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styleprojects.css">
+</head>
+
+<body>
+    <div class="loader-wrapper">
+        <span class="loader"></span>
+    </div>
+    <div class="cursor"></div>
+    <main class="main">
+        <section class="glass">
+            <div id="menuToggle">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul id="menu">
+                    <div class="user">
+                        <img src="data/avatarrond.png" alt="avatar" class="avatar">
+                        <h3>Alexandre Miranda Dias</h3>
+                        <p>Webdesigner en formation universitaire</p>
+                    </div>
+                    <nav class="links">
+                        <a href="index">
+                            <div class="link">
+                                <img src="data/icons/home.png" alt="homeicon">
+                                <h2>Accueil</h2>
+                            </div>
+                        </a>
+                        <a href="course">
+                            <div class="link">
+                                <img src="data/icons/student.png" alt="courseicon">
+                                <h2>Parcours</h2>
+                            </div>
+                        </a>
+                        <a href="projects">
+                            <div class="link">
+                                <img src="data/icons/ideas.png" alt="projectsicon">
+                                <h2>Projets</h2>
+                            </div>
+                        </a>
+                        <a href="contact">
+                            <div class="link">
+                                <img src="data/icons/contact.png" alt="contacticon">
+                                <h2>Contact</h2>
+                            </div>
+                        </a>
+                        <div class="socialicons">
+                            <a href="https://twitter.com/alexmirandadias"><img src="data/icons/twitter.png" alt="twitter"></a>
+                            <a href="http://www.linkedin.com/in/alexandremd/"><img src="data/icons/linkedin.png" alt="linkedin"></a>
+                            <a href="https://www.behance.net/alexandremirandadias"><img src="data/icons/behance.png" alt="behance"></a>
+                            <a href="https://github.com/alexandremrnd"><img src="data/icons/github.png" alt="github"></a>
+                            <img src="data/icons/smallsocialicon.png" id="smallsocialicon">
+                        </div>
+                        <div class="darkmodeswitchmobile">
+                            <p id="switchtext">MODE SOMBRE</p>
+                            <div class="toggle-btn" id="_1st-toggle-btn">
+                                <input type="checkbox" name="switchDLmode" id="switchDLbuttonmobile" onclick="switchDLFunctionProjects()">
+                                <span></span>
+                            </div>
+                        </div>
+                    </nav>
+                </ul>
+            </div>
+            <div class="dashboard">
+                <div class="user">
+                    <img src="data/avatarrond.png" alt="avatar" class="avatar">
+                    <h3>Alexandre Miranda Dias</h3>
+                    <p>Web designer en formation universitaire</p>
+                </div>
+                <div class="links">
+                    <a href="index">
+                        <div class="link">
+                            <img src="data/icons/home.png" alt="homeicon">
+                            <h2>Accueil</h2>
+                        </div>
+                    </a>
+                    <a href="course">
+                        <div class="link">
+                            <img src="data/icons/student.png" alt="courseicon">
+                            <h2>Parcours</h2>
+                        </div>
+                    </a>
+                    <a href="projects">
+                        <div class="link">
+                            <img src="data/icons/ideas.png" alt="projectsicon">
+                            <h2>Projets</h2>
+                        </div>
+                    </a>
+                    <a href="contact">
+                        <div class="link">
+                            <img src="data/icons/contact.png" alt="contacticon">
+                            <h2>Contact</h2>
+                        </div>
+                    </a>
+                </div>
+                <p id="switchtext">MODE SOMBRE</p>
+                <div class="toggle-btn" id="_1st-toggle-btn">
+                    <input type="checkbox" name="switchDLmode" id="switchDLbutton" onclick="switchDLFunctionProjects()">
+                    <span></span>
+                </div>
+                <div class="socialicons">
+                    <a href="https://twitter.com/alexmirandadias"><img src="data/icons/twitter.png" alt="twitter"></a>
+                    <a href="http://www.linkedin.com/in/alexandremd/"><img src="data/icons/linkedin.png" alt="linkedin"></a>
+                    <a href="https://www.behance.net/alexandremirandadias"><img src="data/icons/behance.png" alt="behance"></a>
+                    <a href="https://github.com/alexandremrnd"><img src="data/icons/github.png" alt="github"></a>
+                    <img src="data/icons/smallsocialicon.png" id="smallsocialicon">
+                </div>
+            </div>
+            <!-- Partie à modifier -->
+            <div class="informations">
+                <div class="titleblock">
+                    <h1>Projets</h1>
+                </div>
+                <div class="cards">
+                    <div class="card">
+                        <img src="data/imgprojects/logos/tooeasylogo.png">
+                        <div class="card-info">
+                            <h2 class="title">Création d'une boutique en ligne</h2>
+                            <h3 class="subtitle">PROJET UNIVERSITAIRE</h3>
+                            <div class="tags">
+                                <p class="tag">#graphisme</p>
+                                <p class="tag">#prestashop</p>
+                                <p class="tag">#mode</p>
+                                <p class="tag">#CMS</p>
+                            </div>
+                            
+                            <p>Tooeasy, marque fictive de vêtements, possède désormais une boutique en ligne Prestashop regroupant toutes ces collections.
+                            </p>
+                        </div>
+                        <div class="blocbutton">
+                            <a href="https://alexandremirandadias.fr/store" class="button">Voir la boutique ></a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="data/imgprojects/logos/logobarjo.png">
+                        <div class="card-info">
+                            <h2 class="title">Création d'une charte graphique un bar</h2>
+                            <h3 class="subtitle">PROJET UNIVERSITAIRE</h3>
+                            <div class="tags">
+                                <p class="tag">#graphisme</p>
+                                <p class="tag">#design</p>
+                                <p class="tag">#UX/UI</p>
+                            </div>
+                            
+                            <p>Le but de ce projet était de mettre en place une charte graphique pour un bar, allant du carton d'invitation jusqu'à la vidéo promotionnelle.
+                            </p>
+                        </div>
+                        <div class="blocbutton">
+                            <a href="https://www.behance.net/gallery/130128203/Barjo-Bar-Projet-universitaire" class="button">En savoir plus ></a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="data/imgprojects/logos/logobordeauxviolet.png">
+                        <div class="card-info">
+                            <h2 class="title">Création de visuels et diffusion en direct de l'édition 2020 de la Nuit de l'Info</h2>
+                            <h3 class="subtitle">PROJET PERSONNEL</h3>
+                            <div class="tags">
+                                <p class="tag">#graphisme</p>
+                                <p class="tag">#overlay</p>
+                                <p class="tag">#live</p>
+                                <p class="tag">#event</p>
+                            </div>
+                            <p>En coopération avec l'Université de Bordeaux, l'association des étudiants de l'IUT Informatique de Bordeaux 2020, dont je faisais partie, a co-organisé l'édition 2020 de la Nuit de l'Info de Bordeaux.</p>
+                        </div>
+                        <div class="blocbutton">
+                            <a href="./projects-list/diffusion-nuit-de-linfo" class="button">En savoir plus ></a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="data/imgprojects/logos/algora.png">
+                        <div class="card-info">
+                            <h2 class="title">Mise en place du site Wordpress des écoles Algora Gradignan et Biscarrosse</h2>
+                            <h3 class="subtitle">STAGE J3CONSEIL</h3>
+                            <div class="tags">
+                                <p class="tag">#graphisme</p>
+                                <p class="tag">#dev</p>
+                                <p class="tag">#wordpress</p>
+                                <p class="tag">#CMS</p>
+                            </div>
+                            <p>Mise en place de contenu sur deux sites Wordpress d'écoles de robotique.</p>
+                        </div>
+                        <div class="blocbutton">
+                            <a href="./projects-list/site-algora-wordpress" class="button">En savoir plus ></a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="data/imgprojects/logos/logoproject1.png" alt="projet1">
+                        <div class="card-info">
+                            <h2 class="title">Refonte du site j3conseil.com et de sa plateforme Moodle</h2>
+                            <h3 class="subtitle">STAGE J3CONSEIL</h3>
+                            <div class="tags">
+                                <p class="tag">#graphisme</p>
+                                <p class="tag">#design</p>
+                                <p class="tag">#dev</p>
+                            </div>
+                            <p>Dans le cadre de mon stage de fin de DUT, au sein de l'entreprise J3Conseil, j'ai pu effectuer une refonte totale du site, en ajoutant notamment une version responsive.</p>
+                        </div>
+                        <div class="blocbutton">
+                            <a href="./projects-list/refonte-site-j3conseil" class="button">En savoir plus ></a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="data/imgprojects/logos/logoproject7.png" alt="projet7">
+                        <div class="card-info">
+                            <h2 class="title">Vidéo de communication sur l'entretien en entreprise</h2>
+                            <h3 class="subtitle">PROJET UNIVERSITAIRE</h3>
+                            <div class="tags">
+                                <p class="tag">#montage</p>
+                            </div>
+                            <p>L'entretien n'est pas un exercice facile. Il est donc primordial de cacher toutes ces appréhensions et son stress, en montrant son côté "charismatique". Voici quelques conseils.
+                            </p>
+                        </div>
+                        <div class="blocbutton">
+                            <a href="./projects-list/video-communication-entretien" class="button">En savoir plus ></a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="data/imgprojects/logos/logoproject2.png" alt="projet2" id="logoproject2">
+                        <div class="card-info">
+                            <h2 class="title">Jeu "Taquin" sur Android</h2>
+                            <h3 class="subtitle">PROJET UNIVERSITAIRE</h3>
+                            <div class="tags">
+                                <p class="tag">#dev</p>
+                                <p class="tag">#android</p>
+                                <p class="tag">#game</p>
+                            </div>
+                            <p>Pour clore le module de programmation mobile Android, j'ai réalisé le jeu Taquin sous forme d'application utilisable sur Android, et respectant une charte graphique cohérente.
+                            </p>
+                        </div>
+                        <div class="blocbutton">
+                            <a href="./projects-list/jeu-taquin-android" class="button">En savoir plus ></a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="data/imgprojects/logos/logoproject3.png" alt="projet3">
+                        <div class="card-info">
+                            <h2 class="title">Projet "CHILLIN" Symfony</h2>
+                            <h3 class="subtitle">PROJET UNIVERSITAIRE</h3>
+                            <div class="tags">
+                                <p class="tag">#dev</p>
+                                <p class="tag">#graphisme</p>
+                                <p class="tag">#symfony</p>
+                            </div>
+                            <p>Pour clôturer notre module "Web" au sein de l'IUT, nous avons réalisé un projet de gestion de séries, similaire au pionnier du domaine : Netflix. Ce projet a été réalisé intégralement en Symfony et PHP, et utilise une base
+                                de données MySQL/MariaDB locale.
+                            </p>
+                        </div>
+                        <div class="blocbutton">
+                            <a href="./projects-list/projet-chillin-symfony" class="button">En savoir plus ></a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="data/imgprojects/logos/logoproject5.png" alt="projet5">
+                        <div class="card-info">
+                            <h2 class="title">Création d'une charte graphique pour l'association étudiante</h2>
+                            <h3 class="subtitle">PROJET PERSONNEL</h3>
+                            <div class="tags">
+                                <p class="tag">#graphisme</p>
+                                <p class="tag">#design</p>
+                                <p class="tag">#association</p>
+                            </div>
+                            <p>Responsable communication de l'ABEII (Association du Bureau des Étudiants de l'IUT Informatique) de Bordeaux, j'ai pu réalisé une charte graphique avec logos et posters, notamment pour la période de COVID.
+                            </p>
+                        </div>
+                        <div class="blocbutton">
+                            <a href="./projects-list/charte-graphique-associable" class="button">En savoir plus ></a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="data/imgprojects/logos/logoproject4.png" alt="projet4">
+                        <div class="card-info">
+                            <h2 class="title">Jeu "LE SIMON" JS</h2>
+                            <h3 class="subtitle">PROJET UNIVERSITAIRE</h3>
+                            <div class="tags">
+                                <p class="tag">#dev</p>
+                                <p class="tag">#game</p>
+                            </div>
+                            <p>Pour appronfondir nos connaissances en JavaScript, j'ai créé le célèbre jeu Simon en utilisant seulement trois langages très utilisés dans le domaine du web : HTML, CSS et JavaScript.
+                            </p>
+                        </div>
+                        <div class="blocbutton">
+                            <a href="./projects-list/jeu-simon-js" class="button">En savoir plus ></a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="data/imgprojects/logos/logoproject6.png" alt="projet6">
+                        <div class="card-info">
+                            <h2 class="title">Projet site divers</h2>
+                            <h3 class="subtitle">PROJET UNIVERSITAIRE</h3>
+                            <div class="tags">
+                                <p class="tag">#dev</p>
+                                <p class="tag">#graphisme</p>
+                            </div>
+                            <p>
+                                Au sein de l'IUT Informatique, j'ai pu participé à un projet de création d'un site de notre choix portant sur un thème précis. J'ai choisi ici un site d'actualités footballistiques dans le thème de la plus célèbre compétition dans ce sport : la Champions
+                                League.
+                            </p>
+                        </div>
+                        <div class="blocbutton">
+                            <a href="./projects-list/projet-site-divers" class="button">En savoir plus ></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div class="circle1"></div>
+    <div class="circle2"></div>
+    <div class="circle3"></div>
+    <script src='./js/script.js'></script>
+    <script src='./js/projects.js'></script>
+</body>
+
+</html>

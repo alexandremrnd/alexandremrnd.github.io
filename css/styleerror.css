@@ -1,0 +1,15 @@
+@import "style.css";
+
+main {
+  background: linear-gradient(to right top, #772121, #0d2630);
+  align-items: center;
+  display: flex;
+}
+
+.circle1, .circle2, .circle3 {
+  opacity: 15%;
+}
+
+img {
+
+}

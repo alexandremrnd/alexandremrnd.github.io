@@ -1,0 +1,218 @@
+@import "style.css";
+
+.titleblock {
+  margin: 6rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0;
+}
+
+.cards {
+  margin: 1rem 4vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  background: transparent;
+}
+
+.cards:hover {
+  background: 100%;
+}
+
+.cards:hover::-webkit-scrollbar-thumb {
+  background-color: rgba(160, 160, 160, 0.3);
+  border-radius: 20px;
+  transition: all 1250ms;
+}
+
+.card {
+  width: 90%;
+  height: 25vh;
+  display: flex;
+  background: linear-gradient(
+    to left top,
+    rgba(255, 255, 255, 0.9),
+    rgba(255, 255, 255, 0.3)
+  );
+  border-radius: 1rem;
+  margin: 2vw 0rem;
+  padding: 2vw;
+  box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.2);
+  transition: all 250ms;
+}
+
+.card:hover {
+  transition: all 250ms;
+  transform: scale(1.03);
+}
+
+.card-left,
+.card-right {
+  display: flex;
+  flex: 0 0 50%;
+  padding: 2vw;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-left h2 {
+  font-weight: 900;
+  margin-bottom: 0.5rem;
+  font-size: 2.1vh;
+}
+
+.card-left h3 {
+  font-size: 2.1vh;
+  font-weight: 600;
+  line-height: 1.2;
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+.card-left p {
+  font-size: 1.6vh;
+}
+
+.card-right p {
+  font-size: 1.8vh;
+}
+
+.part2 #skillslandscape {
+  margin-top: 5%;
+  opacity: 0.6;
+  width: 100%;
+}
+
+.part2 #skillsportrait {
+  display: none;
+}
+
+.button {
+  padding: 0.2rem 0.6rem;
+  text-decoration: none;
+  color: #426696;
+  opacity: 0.8;
+  border: solid 1px;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  border-color: #426696;
+  border-radius: 0.5rem;
+  font-size: 0.7vw;
+  transition: all 250ms;
+}
+
+.button:hover {
+  transition: all 250ms;
+  background: #426696;
+  color: white;
+  box-shadow: 0 0px 20px rgba(20, 20, 20, 0.15);
+}
+
+.cvbutton {
+  height: 5%;
+  color: #658ec6;
+  font-size: 1.5vh;
+  font-weight: 900;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 25px;
+  padding: 1% 4%;
+  transition: all 250ms;
+}
+
+.cvbutton:hover {
+  transform: scale(1.05);
+  transition: all 250ms;
+  background: #658ec6;
+  color: white;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+@media only screen and (max-width: 1000px) {
+  .part1 .titleblock {
+    justify-content: space-around;
+    flex-direction: column;
+    margin: 15%;
+  }
+
+  .part1 .cvbutton {
+    margin: 5%;
+  }
+
+  .part1 .cards {
+    padding: 0;
+  }
+
+  .part1 .card {
+    width: 95%;
+    display: block;
+  }
+
+  .part1 .card .card-right {
+    display: none;
+  }
+
+  .part1 .card .card-left {
+    margin: 5%;
+  }
+
+  .part2 .titleblock {
+    margin: 20%;
+  }
+
+  .part2 #skillslandscape {
+    display: none;
+  }
+  
+  .part2 #skillsportrait {
+    display: block;
+    margin-top: 5%;
+    opacity: 0.6;
+    width: 100%;
+  }
+
+  .part3 .titleblock {
+    margin: 20%;
+  }
+
+  .part3 .cards {
+    padding: 0;
+  }
+
+  .part3 .card {
+    width: 95%;
+    flex-direction: column;
+    height: auto;
+  }
+
+
+  .part3 .card .card-left {
+    margin: 5%;
+  }
+
+  .part3 .card .card-right p {
+    margin: 5%;
+  }
+}
+
+
+/* DARK MODE */
+
+  .card-dark, .cvbutton-dark {
+    background: linear-gradient(
+      to right bottom,
+      rgba(80, 79, 79, 0.7),
+      rgba(70, 69, 69, 0.5)
+    );
+    box-shadow: none;
+  }
+
+  .cvbutton-dark {
+    color: #cfcfcf;
+  }

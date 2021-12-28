@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Jeu Taquin Android - Portfolio d'Alexandre Miranda Dias</title>
+    <link rel="shortcut icon" type="image/png" href="./data/icons/icon.png" />
+    <link rel="apple-touch-icon" href="./data/icons/icon.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styleprojectpage.css">
+</head>
+
+<body>
+    <div class="loader-wrapper">
+        <span class="loader"></span>
+    </div>
+    <div class="cursor"></div>
+    <main class="main">
+        <section class="glass">
+            <div id="menuToggle">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul id="menu">
+                    <div class="user">
+                        <img src="../data/avatarrond.png" alt="avatar" class="avatar">
+                        <h3>Alexandre Miranda Dias</h3>
+                        <p>Webdesigner en formation universitaire</p>
+                    </div>
+                    <nav class="links">
+                        <a href="../index">
+                            <div class="link">
+                                <img src="../data/icons/home.png" alt="homeicon">
+                                <h2>Accueil</h2>
+                            </div>
+                        </a>
+                        <a href="../course">
+                            <div class="link">
+                                <img src="../data/icons/student.png" alt="courseicon">
+                                <h2>Parcours</h2>
+                            </div>
+                        </a>
+                        <a href="../projects">
+                            <div class="link">
+                                <img src="../data/icons/ideas.png" alt="projectsicon">
+                                <h2>Projets</h2>
+                            </div>
+                        </a>
+                        <a href="../contact">
+                            <div class="link">
+                                <img src="../data/icons/contact.png" alt="contacticon">
+                                <h2>Contact</h2>
+                            </div>
+                        </a>
+                        <div class="socialicons">
+                            <a href="https://twitter.com/alexmirandadias"><img src="../data/icons/twitter.png" alt="twitter"></a>
+                            <a href="http://www.linkedin.com/in/alexandremd/"><img src="../data/icons/linkedin.png" alt="linkedin"></a>
+                            <a href="https://www.behance.net/alexandremirandadias"><img src="../data/icons/behance.png" alt="behance"></a>
+                            <a href="https://github.com/alexandremrnd"><img src="../data/icons/github.png" alt="github"></a>
+                            <img src="../data/icons/smallsocialicon.png" id="smallsocialicon">
+                        </div>
+                        <div class="darkmodeswitchmobile">
+                            <p id="switchtext">MODE SOMBRE</p>
+                            <div class="toggle-btn" id="_1st-toggle-btn">
+                                <input type="checkbox" name="switchDLmode" id="switchDLbuttonmobile" onclick="switchDLFunctionPPage()">
+                                <span></span>
+                            </div>
+                        </div>
+                    </nav>
+                </ul>
+            </div>
+            <div class="dashboard">
+                <div class="user">
+                    <img src="../data/avatarrond.png" alt="avatar" class="avatar">
+                    <h3>Alexandre Miranda Dias</h3>
+                    <p>Web designer en formation universitaire</p>
+                </div>
+                <div class="links">
+                    <a href="../index">
+                        <div class="link">
+                            <img src="../data/icons/home.png" alt="homeicon">
+                            <h2>Accueil</h2>
+                        </div>
+                    </a>
+                    <a href="../course">
+                        <div class="link">
+                            <img src="../data/icons/student.png" alt="courseicon">
+                            <h2>Parcours</h2>
+                        </div>
+                    </a>
+                    <a href="../projects">
+                        <div class="link">
+                            <img src="../data/icons/ideas.png" alt="projectsicon">
+                            <h2>Projets</h2>
+                        </div>
+                    </a>
+                    <a href="../contact">
+                        <div class="link">
+                            <img src="../data/icons/contact.png" alt="contacticon">
+                            <h2>Contact</h2>
+                        </div>
+                    </a>
+                </div>
+                <p id="switchtext">MODE SOMBRE</p>
+                <div class="toggle-btn" id="_1st-toggle-btn">
+                    <input type="checkbox" name="switchDLmode" id="switchDLbutton" onclick="switchDLFunctionPPage()">
+                    <span></span>
+                </div>
+                <div class="socialicons">
+                    <a href="https://twitter.com/alexmirandadias"><img src="../data/icons/twitter.png" alt="twitter"></a>
+                    <a href="http://www.linkedin.com/in/alexandremd/"><img src="../data/icons/linkedin.png" alt="linkedin"></a>
+                    <a href="https://www.behance.net/alexandremirandadias"><img src="../data/icons/behance.png" alt="behance"></a>
+                    <a href="https://github.com/alexandremrnd"><img src="../data/icons/github.png" alt="github" class="githubicon"></a>
+                    <img src="../data/icons/smallsocialicon.png" id="smallsocialicon">
+                </div>
+            </div>
+            <!-- Partie à modifier -->
+            <div class="informations">
+                <a href="../projects" class="gobackbutton">
+                    < Retour</a>
+                        <div id="jeu-taquin-android">
+                            <div class="titleblock">
+                                <h1>Jeu "Taquin" Android</h1>
+                                <h3>PROJET UNIVERSITAIRE</h3>
+                            </div>
+                            <div class="groupofblocks1">
+                                <div class="block1">
+                                    <h3 class="titleblockinfo">LE BUT DU PROJET</h3>
+                                    <p>Dans le cadre de ma formation à l'IUT Informatique de Gradignan et pour finaliser le module "Programmation mobile", j'ai pu créer un jeu compatible avec les smartphones Android, qui se base sur le célèbre jeu du Taquin.
+                                        Le but était donc ici de créer un jeu où une image, choisie par l'utilisateur, se découpe en carrés qu'il faut déplacer afin de retrouver l'image d'origine.</p>
+                                </div>
+                            </div>
+                            <div class="groupofblocks3">
+                                <img src="../data/imgprojects/jeu-taquin-android/1.png">
+                                <div class="block1">
+                                    <h1> Un design cohérent et harmonieux</h1>
+                                    <p>Mon goût pour le design s'est de nouveau manifesté dans le projet. En effet, l'aspect visuel n'était ici pas malheureusement noté, mais je n'ai pas pu m'empêcher de faire une application respectant une charte graphique
+                                        (police, logo, couleurs,...). J'ai donc recherché une police "amusante" histoire de ne pas perdre l'esprit du jeu. Les boutons et menus déroulans ont été modifiés, adoptant un fond semi-transparent. Des blocs séparent
+                                        les informations, notamment le score de la grille de jeu.
+                                        <br><br>Les polices utilisées ici sont "Work sans medium" pour le texte en général et "Hanging Letters" pour le titre, que j'ai légèrement modifié afin de l'adapter à mon jeu.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="groupofblocks4">
+                                <div class="block1">
+                                    <h1>Un projet de programmation et de logique</h1>
+                                    <p>La notation de ce projet se basait principalement sur l'aspect logique du jeu. En effet, le but primaire ici était d'avoir un jeu qui fonctionne. Le découpage de l'image a été une des étapes assez compliquée du projet,
+                                        mais elle était primordiale pour le bon fonctionnement du jeu. <br><br>Voici deux captures de l'application :
+                                        <br>Après avoir sélectionné un niveau et une image, le joueur peut commencer sa partie.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="groupofblocks5">
+                                <img src="../data/imgprojects/jeu-taquin-android/3.png" alt="">
+                                <img src="../data/imgprojects/jeu-taquin-android/2.png" alt="">
+                            </div>
+                            <div class="groupofblocks6">
+                                <div class="block1">
+                                    <h1>Vous souhaitez en voir plus ?</h1>
+                                    <p class="gotogithubtxt">Rendez-vous sur mon profil GitHub disponible en cliquant sur l'icône à gauche</p>
+                                </div>
+                            </div>
+                        </div>
+            </div>
+        </section>
+    </main>
+    <div class="circle1"></div>
+    <div class="circle2"></div>
+    <div class="circle3"></div>
+    <script src='../js/projectpage.js'></script>
+    <script src='../js/script.js'></script>
+</body>
+
+</html>
